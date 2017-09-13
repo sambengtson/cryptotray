@@ -26,7 +26,7 @@ namespace CryptoTrayForms
                 apiTimer.Interval = new TimeSpan(0, 1, 0).TotalMilliseconds;
 #endif
 #if !DEBUG
-                apiTimer.Interval = new TimeSpan(0, 10, 0).TotalMilliseconds;
+                apiTimer.Interval = new TimeSpan(1, 0, 0).TotalMilliseconds;
 #endif
 
                 apiTimer.Start();
